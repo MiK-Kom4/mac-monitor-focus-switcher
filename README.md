@@ -1,1 +1,1 @@
-# mac-monitor-focus-swither
+# mac-monitor-focus-switcher
