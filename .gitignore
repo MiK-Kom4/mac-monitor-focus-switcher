@@ -1,0 +1,69 @@
+# Xcode
+#
+# xcodeの設定ファイルを無視
+xcuserdata/
+
+# ビルドフォルダを無視
+build/
+DerivedData/
+
+# プロジェクトファイルにおける一時ファイルを無視
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# 一時的な構成ファイルを無視
+*.xcworkspace
+!default.xcworkspace
+
+# スキームファイルを無視
+xcshareddata/xcschemes/*
+
+# XcodeのCIサービス用のファイルを無視
+.xccheckout
+.xcscmblueprint
+
+# テストレポートを無視
+*.xccoverage
+*.xcsnapshots
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Packagesフォルダを無視
+Packages
+# Package.pinsファイルを無視
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# CocoaPods
+#
+# Podsフォルダを無視
+Pods/
+
+# Carthage
+#
+# Carthageビルドフォルダを無視
+Carthage/Build/
+
+# Fastlane
+#
+# fastlaneのログを無視
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# ビルド結果のバイナリを無視
+*.ipa
+*.dSYM.zip
+
+# その他の無視対象
+.DS_Store
+*.lock
+*.xcuserstate
+*.xcuserdatad
