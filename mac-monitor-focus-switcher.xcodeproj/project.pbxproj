@@ -95,8 +95,10 @@
 		EB88378B2C5A35400013A8B1 /* mac-monitor-focus-switcher */ = {
 			isa = PBXGroup;
 			children = (
+				EB8837BA2C5A74890013A8B1 /* Views */,
+				EB8837B92C5A74820013A8B1 /* Models */,
+				EB8837B72C5A746C0013A8B1 /* Controllers */,
 				EB88378C2C5A35400013A8B1 /* mac_monitor_focus_switcherApp.swift */,
-				EB88378E2C5A35400013A8B1 /* ContentView.swift */,
 				EB8837902C5A35410013A8B1 /* Assets.xcassets */,
 				EB8837952C5A35410013A8B1 /* mac_monitor_focus_switcher.entitlements */,
 				EB8837922C5A35410013A8B1 /* Preview Content */,
@@ -127,6 +129,28 @@
 				EB8837AA2C5A35410013A8B1 /* mac_monitor_focus_switcherUITestsLaunchTests.swift */,
 			);
 			path = "mac-monitor-focus-switcherUITests";
+			sourceTree = "<group>";
+		};
+		EB8837B72C5A746C0013A8B1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EB8837B92C5A74820013A8B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB8837BA2C5A74890013A8B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB88378E2C5A35400013A8B1 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
