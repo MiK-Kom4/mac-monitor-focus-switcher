@@ -8,22 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var shortcutManager = ShortcutManager()
+    private let mouseController = MouseController()
+    
     var body: some View {
-        VStack(alignment: .leading, spacing: 0.0) {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            VStack(alignment: .leading) {
-                Text("Hello, Komatsu")
-                    .multilineTextAlignment(.center)
-                Text("test")
-                    .font(.subheadline)
+        NavigationView {
+            VStack {
+                List(shortcutManager.shortcuts) { shortcut in
+                    Text("\(shortcut.keyCombination): (\(shortcut.coordinates.x), \(shortcut.coordinates.y))")
+                }
+                NavigationLink(destination: ShortcutView(shortcutManager: shortcutManager)) {
+                    Text("Add Shortcut")
+                }
             }
+            .navigationTitle("Shortcut")
         }
-        .padding()
+        .onAppear {
+            // Add keyboard shortcut observer
+            NSEvent.addGlobalMonitorForEvents(matching: .keyDown) { event in
+                if let characters = event.characters {
+                    if let coordinates = shortcutManager.getCoordinates(for: characters) {
+                        mouseController.moveMouse(to: coordinates)
+                    }
+                }
+            }
+         }
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
