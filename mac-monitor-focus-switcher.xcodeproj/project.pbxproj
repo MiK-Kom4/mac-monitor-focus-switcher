@@ -14,6 +14,10 @@
 		EB88379F2C5A35410013A8B1 /* mac_monitor_focus_switcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88379E2C5A35410013A8B1 /* mac_monitor_focus_switcherTests.swift */; };
 		EB8837A92C5A35410013A8B1 /* mac_monitor_focus_switcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837A82C5A35410013A8B1 /* mac_monitor_focus_switcherUITests.swift */; };
 		EB8837AB2C5A35410013A8B1 /* mac_monitor_focus_switcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837AA2C5A35410013A8B1 /* mac_monitor_focus_switcherUITestsLaunchTests.swift */; };
+		EB8837BE2C5A77590013A8B1 /* MouseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837BD2C5A77590013A8B1 /* MouseController.swift */; };
+		EB8837C02C5A79D60013A8B1 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837BF2C5A79D60013A8B1 /* Shortcut.swift */; };
+		EB8837C22C5A7A810013A8B1 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837C12C5A7A810013A8B1 /* ShortcutManager.swift */; };
+		EB8837C42C5A7FA70013A8B1 /* ShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837C32C5A7FA70013A8B1 /* ShortcutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		EB8837A42C5A35410013A8B1 /* mac-monitor-focus-switcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-monitor-focus-switcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8837A82C5A35410013A8B1 /* mac_monitor_focus_switcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_monitor_focus_switcherUITests.swift; sourceTree = "<group>"; };
 		EB8837AA2C5A35410013A8B1 /* mac_monitor_focus_switcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_monitor_focus_switcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB8837BD2C5A77590013A8B1 /* MouseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseController.swift; sourceTree = "<group>"; };
+		EB8837BF2C5A79D60013A8B1 /* Shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
+		EB8837C12C5A7A810013A8B1 /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
+		EB8837C32C5A7FA70013A8B1 /* ShortcutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,7 @@
 		EB8837B72C5A746C0013A8B1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EB8837BD2C5A77590013A8B1 /* MouseController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -141,6 +150,8 @@
 		EB8837B92C5A74820013A8B1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				EB8837BF2C5A79D60013A8B1 /* Shortcut.swift */,
+				EB8837C12C5A7A810013A8B1 /* ShortcutManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -149,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				EB88378E2C5A35400013A8B1 /* ContentView.swift */,
+				EB8837C32C5A7FA70013A8B1 /* ShortcutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -283,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8837C42C5A7FA70013A8B1 /* ShortcutView.swift in Sources */,
 				EB88378F2C5A35400013A8B1 /* ContentView.swift in Sources */,
+				EB8837C02C5A79D60013A8B1 /* Shortcut.swift in Sources */,
 				EB88378D2C5A35400013A8B1 /* mac_monitor_focus_switcherApp.swift in Sources */,
+				EB8837BE2C5A77590013A8B1 /* MouseController.swift in Sources */,
+				EB8837C22C5A7A810013A8B1 /* ShortcutManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
