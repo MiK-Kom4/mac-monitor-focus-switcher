@@ -14,6 +14,7 @@
 		EB88379F2C5A35410013A8B1 /* mac_monitor_focus_switcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88379E2C5A35410013A8B1 /* mac_monitor_focus_switcherTests.swift */; };
 		EB8837A92C5A35410013A8B1 /* mac_monitor_focus_switcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837A82C5A35410013A8B1 /* mac_monitor_focus_switcherUITests.swift */; };
 		EB8837AB2C5A35410013A8B1 /* mac_monitor_focus_switcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837AA2C5A35410013A8B1 /* mac_monitor_focus_switcherUITestsLaunchTests.swift */; };
+		EB8837BE2C5A77590013A8B1 /* MouseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837BD2C5A77590013A8B1 /* MouseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		EB8837A42C5A35410013A8B1 /* mac-monitor-focus-switcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-monitor-focus-switcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8837A82C5A35410013A8B1 /* mac_monitor_focus_switcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_monitor_focus_switcherUITests.swift; sourceTree = "<group>"; };
 		EB8837AA2C5A35410013A8B1 /* mac_monitor_focus_switcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_monitor_focus_switcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB8837BD2C5A77590013A8B1 /* MouseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		EB8837B72C5A746C0013A8B1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EB8837BD2C5A77590013A8B1 /* MouseController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				EB88378F2C5A35400013A8B1 /* ContentView.swift in Sources */,
 				EB88378D2C5A35400013A8B1 /* mac_monitor_focus_switcherApp.swift in Sources */,
+				EB8837BE2C5A77590013A8B1 /* MouseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
