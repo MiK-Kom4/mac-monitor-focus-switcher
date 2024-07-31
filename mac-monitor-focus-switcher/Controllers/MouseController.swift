@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import AppKit
+
+class MouseController {
+    func moveMouse(to coordinates: (x: Double, y: Double)) {
+        let mouseLocation = CGPoint(x: coordinates.x, y: coordinates.y)
+        CGWarpMouseCursorPosition(mouseLocation)
+    }
+}
