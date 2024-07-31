@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Shortcut: Identifiable {
+    let id = UUID()
+    var keyCombination: String
+    var coordinates: (x: Double, y: Double)
+}
