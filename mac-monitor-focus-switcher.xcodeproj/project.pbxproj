@@ -17,6 +17,7 @@
 		EB8837BE2C5A77590013A8B1 /* MouseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837BD2C5A77590013A8B1 /* MouseController.swift */; };
 		EB8837C02C5A79D60013A8B1 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837BF2C5A79D60013A8B1 /* Shortcut.swift */; };
 		EB8837C22C5A7A810013A8B1 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837C12C5A7A810013A8B1 /* ShortcutManager.swift */; };
+		EB8837C42C5A7FA70013A8B1 /* ShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837C32C5A7FA70013A8B1 /* ShortcutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EB8837BD2C5A77590013A8B1 /* MouseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseController.swift; sourceTree = "<group>"; };
 		EB8837BF2C5A79D60013A8B1 /* Shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
 		EB8837C12C5A7A810013A8B1 /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
+		EB8837C32C5A7FA70013A8B1 /* ShortcutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				EB88378E2C5A35400013A8B1 /* ContentView.swift */,
+				EB8837C32C5A7FA70013A8B1 /* ShortcutView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB8837C42C5A7FA70013A8B1 /* ShortcutView.swift in Sources */,
 				EB88378F2C5A35400013A8B1 /* ContentView.swift in Sources */,
 				EB8837C02C5A79D60013A8B1 /* Shortcut.swift in Sources */,
 				EB88378D2C5A35400013A8B1 /* mac_monitor_focus_switcherApp.swift in Sources */,
