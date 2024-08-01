@@ -18,6 +18,7 @@
 		EB8837C02C5A79D60013A8B1 /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837BF2C5A79D60013A8B1 /* Shortcut.swift */; };
 		EB8837C22C5A7A810013A8B1 /* ShortcutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837C12C5A7A810013A8B1 /* ShortcutManager.swift */; };
 		EB8837C42C5A7FA70013A8B1 /* ShortcutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837C32C5A7FA70013A8B1 /* ShortcutView.swift */; };
+		EB8837C62C5BDBF10013A8B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8837C52C5BDBF10013A8B1 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EB8837BF2C5A79D60013A8B1 /* Shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
 		EB8837C12C5A7A810013A8B1 /* ShortcutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutManager.swift; sourceTree = "<group>"; };
 		EB8837C32C5A7FA70013A8B1 /* ShortcutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutView.swift; sourceTree = "<group>"; };
+		EB8837C52C5BDBF10013A8B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				EB8837902C5A35410013A8B1 /* Assets.xcassets */,
 				EB8837952C5A35410013A8B1 /* mac_monitor_focus_switcher.entitlements */,
 				EB8837922C5A35410013A8B1 /* Preview Content */,
+				EB8837C52C5BDBF10013A8B1 /* AppDelegate.swift */,
 			);
 			path = "mac-monitor-focus-switcher";
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				EB88378F2C5A35400013A8B1 /* ContentView.swift in Sources */,
 				EB8837C02C5A79D60013A8B1 /* Shortcut.swift in Sources */,
 				EB88378D2C5A35400013A8B1 /* mac_monitor_focus_switcherApp.swift in Sources */,
+				EB8837C62C5BDBF10013A8B1 /* AppDelegate.swift in Sources */,
 				EB8837BE2C5A77590013A8B1 /* MouseController.swift in Sources */,
 				EB8837C22C5A7A810013A8B1 /* ShortcutManager.swift in Sources */,
 			);
