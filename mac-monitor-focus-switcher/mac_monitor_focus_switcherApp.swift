@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct mac_monitor_focus_switcherApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appDelegate.shortcutManager)
         }
     }
 }
