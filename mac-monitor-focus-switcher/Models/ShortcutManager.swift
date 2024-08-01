@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 class ShortcutManager: ObservableObject {
     @Published var shortcuts: [Shortcut] = []
