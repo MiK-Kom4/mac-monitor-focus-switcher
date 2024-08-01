@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ShortcutView: View {
-    @ObservedObject var shortcutManager: ShortcutManager
+    @EnvironmentObject var shortcutManager: ShortcutManager
     @State private var keyCombination = ""
     @State private var xCoordinate = ""
     @State private var yCoordinate = ""
@@ -18,7 +18,6 @@ struct ShortcutView: View {
             TextField("Key Combination", text: $keyCombination)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
-            
             
             TextField("X Coordinate", text: $xCoordinate)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -43,6 +42,6 @@ struct ShortcutView: View {
 
 struct ShortcutView_Previews: PreviewProvider {
     static var previews: some View {
-        ShortcutView(shortcutManager: ShortcutManager())
+        ShortcutView().environmentObject(ShortcutManager())
     }
 }
